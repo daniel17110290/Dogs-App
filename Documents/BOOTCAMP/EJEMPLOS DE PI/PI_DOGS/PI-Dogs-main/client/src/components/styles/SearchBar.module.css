@@ -1,0 +1,32 @@
+.btn{
+    margin-left: 5px;
+    border-radius:5px;
+    border:none;
+    background-color:transparent;
+    padding: 10px 10px;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.buscar{
+    display: initial;
+    margin-left: 65px;
+    background-color:transparent;
+    width:fit-content;
+    border-radius:100px;
+    border: 2px solid grey;
+}
+
+.buscar input{
+    padding:10px 20px;
+    font-size:14px;
+    color:#000;
+    outline: none;
+    border: none;
+    border-radius:15px;
+    background-color:transparent;
+    
+}

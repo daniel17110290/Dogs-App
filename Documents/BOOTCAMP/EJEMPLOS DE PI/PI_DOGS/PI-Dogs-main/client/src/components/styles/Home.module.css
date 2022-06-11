@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "miFuente3";
+    src: url(../../fuentes/GOODDP__.TTF);
+}
+
+.contenedor{
+    background-image: url(../../pics/fongo_home.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+    display: inline-flexbox;
+    flex-direction: column;
+    min-height: 100vh;           
+}
+
+.titulo{
+    font-family: "miFuente3";
+    font-size: 45px;
+    font-display:initial;
+    position: relative;
+    z-index: 2;
+    font-style: normal;
+    color: black;
+}
+
+.boton{
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 140px;
+    
+}
+
+.boton:hover{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
+    border-radius: 4.5px; 
+    border-color: white;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 500;
+    border-width: 1.5px;
+    font-weight: bold;
+}
+
+.boton2{
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 180px;
+    
+}
+
+.boton2:hover{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
+    border-radius: 4.5px; 
+    border-color: white;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 500;
+    border-width: 1.5px;
+    font-weight: bold;
+}
+.tituloSelect{
+    padding: 5px;
+    font-family: "miFuente3";
+    font-size: 30px;
+    font-display:initial;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    color: black;
+}
+
+.select1{
+    font-family: "miFuente3";
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 2px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 185px;
+}
+
+.select2{
+    font-family: "miFuente3";
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 2px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 140px;
+}
+
+.options1{
+    font-family: "miFuente3";
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 2px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 140px;
+}
+
+.todo{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius:8px;
+    margin-bottom: 70px;
+    align-items: stretch;
+    opacity: 0.8;
+}

@@ -1,0 +1,166 @@
+.cont{
+    background-image: url(../../pics/fongo_home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title{
+    color:black;
+}
+
+.button{
+	padding:10px 15px;
+	border:1px solid rgb(180, 15, 15);
+	border-radius:5px;
+    margin: 20px;
+	background-color:rgb(180, 15, 15);
+
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+
+	box-shadow:1px 1px 1px #000;
+
+	display:inline-block;
+
+}
+
+.button:hover{
+	cursor:pointer;
+    z-index: 2;
+}
+
+.button:active{
+	box-shadow:2px 2px 1px #000;
+}
+
+.all{
+    margin-top:100px;
+    background: black;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius:8px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    opacity:0.8;
+}
+
+.volver{
+    background: none;
+    text-decoration: none;
+    display: flex;
+    margin-left: 60px;
+    color: white;
+    border-style: none;
+    font-size: 30px;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.volver:hover{
+    background: none;
+    text-decoration: none;
+    display: flex;
+    /* width: 115px; */
+    margin-left: 60px;
+    color: white;
+    border-style: none;
+    font-size: 30px;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight: bold;
+    font-family: Verdana;
+    cursor: pointer;
+}
+
+.form{
+    width: 500px;
+    height: 70%;
+    background-color: transparent;
+    border: 8px double white;
+    font-family: monospace;
+    font-size: large;
+    color: white;
+    margin: 60px;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 100px;
+    left: 31%;
+}
+
+.n {
+    font-size: 15px;
+    font-family: monospace;
+    position: absolute;
+    font-weight: bolder;
+    left: 3px;
+    top: 1px;
+    width: 35%;
+    border-color: midnightblue;
+}
+
+.form label{
+    color:white;
+}
+
+.form label{
+    width:200px;
+    display: inline-block;
+    text-align: left;
+    margin-right:15px
+}
+
+.select1{
+    font-size: 20px;
+    font-style: normal;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 2px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 185px;
+}
+
+.boton{
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border-width: 0px;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 4.5px; 
+    height: 25px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 140px;
+    
+}
+
+.boton:hover{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
+    border-radius: 4.5px; 
+    border-color: white;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 500;
+    border-width: 1.5px;
+    font-weight: bold;
+}

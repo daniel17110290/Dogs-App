@@ -1,0 +1,146 @@
+.todo{
+    background: url(../../pics/fondo_detail.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.img{
+    height:400px;
+    width: 700px;
+    border-radius:20px;
+}
+
+.text{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 950px;
+    width:fit-content;
+    font-family: 'Roboto', sans-serif;
+    color:white
+}
+
+.btn{
+    border-radius:3px;
+    background-color:white;
+    color:black;
+    padding:7px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    border-radius:3px;
+    background-color:black;
+    color:white;
+    padding:8.5px;
+    font-size: 13px;
+    font-weight: bold;
+    font-weight: bold;
+    border: 1px;
+}
+
+.button{
+    margin-bottom:50px;
+    margin-top: 20px;
+}
+
+.h4{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.plataformas{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.rating{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.lanzamiento{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.h1{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.loader{
+    animation: running 3s infinite linear;
+    width: 80px;
+}
+
+@keyframes running {
+    from {
+        transform: translateX(-150px);
+    }
+    to{
+        transform: translateX(250px)
+    }
+}
+
+.padre{
+    margin-top:10px;
+}
+
+.cont{
+    background-color:black;
+    margin-top:100px;
+    margin-bottom:80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius:25px;
+    opacity: 90%;
+    padding:10px;
+}
+
+.h5{
+    color:white;
+    font-weight:bold;
+}
+
+.button{
+	padding:10px 15px;
+	border:1px solid grey;
+	border-radius:5px;
+    margin: 20px;
+	background-color:transparent;
+
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+
+	box-shadow:1px 1px 1px #000;
+
+	display:inline-block;
+
+}
+
+.button:hover{
+	cursor:pointer;
+    z-index: 2;
+    background-color: grey;
+}
+
+.button:active{
+	box-shadow:2px 2px 1px #000;
+}
+
+.retornar{
+    text-decoration: none;
+    margin-top:15px;    
+}

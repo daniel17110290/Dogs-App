@@ -1,0 +1,33 @@
+.todo{
+    display:flex;
+    flex-direction:row;  
+    text-decoration: none;
+    justify-content:space-evenly;
+    border-width: 10px;
+}
+
+.li{
+    align-items:center ;
+    display:inline-block;
+    margin-left: 15px;
+    border-width: 10px;
+}
+
+.a{
+    border: 2px solid grey;
+    padding: 4px 10px;
+    border-radius:4px;
+    color:black;
+    background: transparent;
+    font-weight: bold;
+}
+
+.a:hover{
+    border: 1px solid grey;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius:4px;
+    color:white;
+    background: grey; 
+    cursor: pointer;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "miFuente";
+    src: url(../../fuentes/Summer\ Butterfly.ttf);
+}
+
+@font-face {
+    font-family: "miFuente2";
+    src: url(../../fuentes/HeartDisplayRegular.ttf);
+}
+
+.contenedor{
+    background-image: url(../../pics/fondo_landingPage.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 60px;
+    display: inline-flexbox;
+    flex-direction: column;
+    min-height: 100vh;            
+}
+
+.titulo{
+    font-family: "miFuente";
+    font-size: 45px;
+    font-display:initial;
+    position: center;
+    z-index: 2;
+    font-style: normal;
+    color: white;
+}
+
+.subtitulo{
+    font-family: "miFuente2";
+    font-size: 45px;
+    font-display:initial;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+    color: white;
+}
+
+.boton{
+    position: relative;
+    z-index: 2;
+    background-color: rgb(241, 237, 237);
+    border-width: 0px;
+    border: 6px solid white;
+    color: black;
+    border-radius: 4.5px; 
+    height: 30px;
+    font-weight: 300;
+    font-weight: bold;
+    width: 90px;
+    opacity: 50%;
+}
+
+.boton:hover{
+    position: relative;
+    z-index: 2;
+    background-color:rgb(97, 96, 96);
+    color: rgb(255, 255, 255);
+    border-radius: 4.5px; 
+    height: 30px;
+    border-color: white;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 500;
+    border-width: 1.5px;
+    font-weight: bold;
+    width: 90px;
+}
+
+.inputcheck{
+    border: 2px solid grey;
+    background-color: aqua;
+    font-style: italic;
+}
